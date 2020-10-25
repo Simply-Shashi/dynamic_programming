@@ -31,5 +31,6 @@ int main()
     {
         sum = sum + arr[i];
     }
-    subsetsum(arr, sum, n);
+    bool result = subsetsum(arr, sum, n);
+    cout << result;
 }
