@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 using namespace std;
 
 class min_ss_sum_diff
@@ -33,8 +32,7 @@ public:
         for (int j = 0; j < (sum + 1) / 2; j++)
         {
             if (t[n][j] == true)
-                ;
-            mn = min(mn, sum - 2 * j);
+                mn = min(mn, sum - 2 * j);
         }
         return mn;
     }
@@ -42,7 +40,7 @@ public:
 
 int main()
 {
-    int arr[] = {1, 2, 4}, sum = 0;
+    int arr[] = {5, 2, 12, 4, 8}, sum = 0;
     int n = sizeof(arr) / sizeof(arr[0]);
     for (int i = 0; i < n; i++)
         sum = sum + arr[i];
