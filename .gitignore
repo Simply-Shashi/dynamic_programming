@@ -1,8 +1,2 @@
-/equalsum.exe
-/knapbottomup.exe
-/knapmemo.exe
-/knaprecursion.exe
-/launch.json
-/mcmrec.exe
-/settings.json
-/subsetsum.exe
+# Ignore all .exe and .json files
+*[.exe,.json]
