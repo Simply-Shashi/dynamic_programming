@@ -41,7 +41,7 @@ class mcm
 };
 int main()
 {
-    string pal = "nitik";
+    string pal = "abcabcbacdefefd";
     mcm ob;
     cout<<ob.pal_part_rec(pal,0,pal.length());
 }

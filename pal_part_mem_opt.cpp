@@ -53,7 +53,7 @@ class mcm
 
 int main()
 {
-    string s = "nitik";
+    string s = "abcabcbacdefefd";
     memset(t,-1,sizeof(t));
     mcm ob;
     cout<<ob.pal_part_optimized(s,0,s.length());
